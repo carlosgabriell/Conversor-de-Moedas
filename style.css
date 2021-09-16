@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.unicamp.br/unicamp/sites/default/files/inline-images/doacoes.png");
+  background-color: #6411ad;
+  background-size: 15vh;
+  background-position: top 10px left 5px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 300px;
+}
+
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffff3f;
+}
+div button {
+  padding: 4px;
+  border: 1px solid #eee;
+  border-radius: px;
+  background-color: #ffff3f;
+  font-size: 18px;
+  width: 30%;
+  margin: 30px 0px 0px 0px;
+}
+
+button:hover {
+  color: white;
+  border: 1px solid black;
+  transition: 350ms;
+  background-color: rgba(109, 70, 252, 1);
+}
+
+button:active {
+  background-color: rgb(57, 42, 110);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
